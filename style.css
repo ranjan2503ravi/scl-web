@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    color: #333333;
+   
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+.drop-down {
+
+    height: 40px;
+    width: 90px;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 25px;
+
+}
+
+.border:hover {
+    background-color: #4880e2;
+    padding: 15px;
+
+}
+
+.drop-down1 {
+    margin: 25px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.background {
+    background-image: url(./background\ img.jpeg);
+    background-size: cover;
+    height: 600px;
+}
+
+.about-us {
+    position: relative;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.text1 {
+    position: absolute;
+    text-align: center;
+    line-height: 1.5rem;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 14.5rem;
+}
+.text2{
+    color: blue;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+margin-top: 300px;
+}
+.btn{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #05AD70;
+    color: white;
+}
+.button:hover{
+    color: black;
+}
+.text3{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  gap: 30px;
+}
+.one{
+    margin-top: 30px;
+  }
+.one p{
+    display: inline;
+    
+} 
+
+
+
+.features2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  gap: 30px;
+}
+.two{
+    margin-top: 10px;
+  }
+.two p{
+    display: inline;
+    
+}
+
+
